@@ -1,0 +1,76 @@
+/* Signup.css */
+
+.Signup-container {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #111010;
+  border-radius: 5px;
+  background: transparent;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.Signup-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color:#d7ff72;
+  font-size: 48px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+.Signup-container h2 {
+  text-align: center;
+  color: #0142a4;
+  font-size: 44px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+/* Rest of the styles remain the same */
+
+.Signup-container form {
+  margin-bottom: 20px;
+}
+
+.Signup-container .form-group {
+  margin-bottom: 15px;
+}
+
+.Signup-container label {
+  display: block;
+  font-weight: bold;
+}
+
+.Signup-container input[type="email"],
+.Signup-container input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.Signup-container button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.Signup-container button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.Signup-container p {
+  margin-bottom: 0;
+}
+
+.Signup-container p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.Signup-container p a:hover {
+  text-decoration: underline;
+}

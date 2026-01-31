@@ -1,0 +1,75 @@
+/* UnitCalculator.css */
+
+.unit-calculator-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .unit-calculator-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .unit-calculator-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .unit-calculator-container input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .unit-calculator-container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .unit-calculator-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .unit-calculator-container .total-cost {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  .navbar {
+    background-color: #333; /* Background color */
+    overflow: hidden;
+    margin-bottom: 20px; /* Add margin bottom to separate from other content */
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: rgb(255, 255, 255); /* Text color */
+    text-align: center;
+    padding: 14px 16px; /* Padding */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .navbar li a:hover {
+    background-color: #151212; /* Background color on hover */
+    color: rgb(255, 255, 255); /* Text color on hover */
+  }
+  
+  .active {
+    background-color: #302f24; /* Active link background color */
+  }
+  

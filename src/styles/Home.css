@@ -1,0 +1,109 @@
+/* Home Page CSS */
+
+/* Navbar */
+.navbar {
+  background-color: transparent; /* Transparent background */
+  border-bottom: none; /* Remove border */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #fff; /* White text color */
+}
+
+.nav-link {
+  color: #fff; /* White text color */
+}
+
+.nav-link:hover {
+  color: #000000; /* Light gray text color on hover */
+}
+
+/* Main Content */
+.home-container {
+  min-height: 100vh; /* Ensure full viewport height */
+  display: flex;
+  flex-direction: column;
+  background-size: cover; /* Cover the entire element with the background image */
+  background-position: cover; /* Center the background image */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+
+.button-group {
+  margin-top: 100px;
+}
+
+/* Highlighted Text Color */
+.main-content-text {
+  color: #ff5722; /* Highlighted text color */
+}
+
+/* Footer */
+footer {
+  background-color: transparent; /* Transparent background */
+  color: #fff; /* White text color */
+  padding: 20px 0; /* Add padding to the top and bottom */
+  width: 100%; /* Occupy full width */
+  position: fixed; /* Stick to the bottom of the viewport */
+  bottom: 0; /* Align to the bottom */
+  left: 0; /* Align to the left */
+}
+
+/* Header */
+header h1 {
+  color: #018b66; /* Green color */
+  font-weight: bold;
+  font-size: 3rem; /* Increase font size */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Add shadow effect */
+}
+
+.py-5 {
+  padding-top: 3rem; /* Adjust top padding for py-5 class */
+  padding-bottom: 3rem; /* Adjust bottom padding for py-5 class */
+}
+.search-bar {
+  color: #242726; /* Green color */
+  background-color: #056041  ; /* Transparent background */
+  border: 2px; /* Remove border */
+  color: #fff; /* Text color */
+}
+/* Home.css */
+
+/* Home.css */
+
+.home-body {
+  overflow: hidden; /* Hide scroll bars */
+}
+
+/* Other styles remain unchanged */
+/* Home.css */
+
+/* Header */
+header h1.display-4 {
+  font-size: 3rem; /* Change the font size for h1.display-4 */
+  font-weight: bold;
+  color:#ffde91;
+}
+
+/* Header Lead */
+header p.lead {
+  font-size: 1.5rem; /* Change the font size for p.lead */
+  color:#363539;
+  font-weight: 100;
+}
+
+h2{
+  font-size: 2rem; /* Change the font size for p.lead */
+  color:#ffac70;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+/* Background image for the profile page */
+body {
+  background-image: url('https://www.powerwizard.com/wp-content/uploads/2022/03/average-monthly-electric-bill-for-1-person-01-1024x563.jpg'); /* Replace 'path_to_your_image.jpg' with your image path */
+  background-size: cover;
+  background-position: fixed;
+}
+

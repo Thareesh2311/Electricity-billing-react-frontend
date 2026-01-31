@@ -1,0 +1,61 @@
+/* Login.css */
+
+.login-container {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #0f0c0c;
+    border-radius: 5px;
+    background: transparent; /* Gradient background */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  }
+  
+  .login-container header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f0ff6d; /* White color for header */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6); /* Text shadow for better visibility */
+  }
+  
+  .login-container main form {
+    margin-bottom: 20px;
+  }
+  
+  .login-container main .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .login-container main .form-group label {
+    display: block;
+    color: #9c34dc; /* White color for labels */
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  }
+  
+  .login-container main .form-group input[type="email"],
+  .login-container main .form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0d0e11;
+    border-radius: 3px;
+    background-color: #ffffff; /* White background for inputs */
+  }
+  
+  .login-container main button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Blue color for button */
+    color: #fff; /* White color for button text */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .login-container main button[type="submit"]:hover {
+    background-color: #0e4a8b; /* Darker blue color on hover */
+  }
+  
+  .login-container footer p {
+    text-align: center;
+    color: #ffffff; /* White color for footer text */
+  }

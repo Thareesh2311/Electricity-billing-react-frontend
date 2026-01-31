@@ -1,0 +1,111 @@
+/* SettingsPage CSS */
+
+/* Navbar */
+.navbar {
+    background-color: #a6a6a6; /* Dark gray background */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #ffffff; /* White text color */
+  }
+  
+  .nav-link:hover {
+    color: #ccc; /* Light gray text color on hover */
+  }
+  
+  /* Main Content */
+  .settings-container {
+    min-height: 100vh; /* Ensure full viewport height */
+    background-color: #ffffff; /* Light gray background */
+    padding-top: 10px; /* Ensure content is below the navbar */
+  }
+  
+  .settings-container .container {
+    margin-top: 10px; /* Add space between navbar and content */
+  }
+  
+  .settings-container h1 {
+    color: #007bff; /* Bootstrap primary color for headings */
+  }
+  
+  .settings-container .form-group {
+    margin-bottom: 10px; /* Add space between form groups */
+  }
+  
+  .settings-container label {
+    font-weight: bold;
+  }
+  
+  .settings-container input[type="password"],
+  .settings-container input[type="email"],
+  .settings-container select {
+    width: 100%;
+    padding: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .settings-container button {
+    margin-top: 5px;
+  }
+  
+  /* Footer */
+  .settings-container footer {
+    position: fixed; /* Fix the footer to the bottom of the viewport */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40; /* Dark gray background */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 10px 0; /* Add padding to top and bottom */
+  }
+  
+  /* SettingsPage CSS */
+
+/* Icon Styles */
+.card h2 i {
+    margin-right: 1px; /* Add margin between icon and text */
+  }
+  
+  /* Card Styles */
+  .card {
+    background-color: #fff; /* White background */
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 10px; /* Add padding */
+    margin-bottom: 10px; /* Add margin between cards */
+  }
+  
+  /* Form Styles */
+  .form-group {
+    margin-bottom: 5px; /* Add margin between form groups */
+  }
+  
+  /* Button Styles */
+  .btn-primary {
+    background-color: #1b2127; /* Bootstrap primary color */
+    border-color: #007bff; /* Bootstrap primary color for border */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker shade of primary color on hover */
+    border-color: #0056b3; /* Darker shade of primary color for border on hover */
+  }
+  
+  /* Checkbox Styles */
+  .form-group input[type="checkbox"] {
+    margin-right: 5px; /* Add margin between checkbox and label */
+  }
+  /* Custom CSS */
+.container h1 {
+    color: #323432; /* Green color */
+  }
+  

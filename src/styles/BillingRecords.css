@@ -1,0 +1,58 @@
+/* BillingRecords.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #615959;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #000000;
+}
+/* BillingRecords.css */
+.header {
+    background-color: #252729; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 10px 0; /* Add padding for better spacing */
+  }
+  
+  .navigation-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navigation-links li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .navigation-links li a {
+    text-decoration: none;
+    color: inherit; /* Inherit the header text color */
+  }
+  
+  .navigation-links li a:hover {
+    color: #fff; /* Change link color on hover */
+  }
+
+  /* BillingRecords.css */
+.table-wrapper {
+    margin-top: 2px;
+  }
+  

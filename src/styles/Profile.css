@@ -1,0 +1,51 @@
+/* Profile.css */
+
+.container {
+  max-width: 1500px;
+  margin: 10px auto;
+}
+
+.card {
+  margin-top: 50px;
+  background-color: rgba(255, 255, 255, 0.5); /* Transparent background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.card-header {
+  background-color: #1976D2;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-top-left-radius: 20px; /* Adjust border radius for top-left corner */
+  border-top-right-radius: 20px; /* Adjust border radius for top-right corner */
+}
+
+.card-body {
+
+  background-color: transparent;
+}
+
+.profile-pic {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.btn-primary {
+  margin-top: 10px;
+}
+
+
+
+/* Background image for the profile page */
+body {
+  background-image: url('https://www.powerwizard.com/wp-content/uploads/2022/03/average-monthly-electric-bill-for-1-person-01-1024x563.jpg'); /* Replace 'path_to_your_image.jpg' with your image path */
+  background-size: cover;
+  background-position: fixed;
+}
